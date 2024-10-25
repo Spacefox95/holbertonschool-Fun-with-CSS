@@ -1,0 +1,53 @@
+body {
+	display: flex;
+	justify-content: center;
+}
+
+ul {
+	width: 950px;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+li {
+	display: flex;
+	background-color: #F7F7F7;
+	flex-direction: column;
+	align-items: center;
+	font-size: 30px;
+	font-weight: bold;
+	border-radius: 5px;
+	width: 270px;
+	height: 470px;
+	border: 3px solid gray;
+	position: relative;
+	padding-top: 20px;
+	box-sizing: border-box;
+	z-index: -1;
+}
+
+.icon {
+	width: 100%;
+	height: calc(100% - 60px);
+	background-image: url("./spite.png");
+	background-repeat: no-repeat;
+	background-size: 810px 390px;
+	position: absolute;
+	top: 60px;
+	left: 0;
+	z-index: 1;
+}
+
+.i-html {
+	background-position: 0 0;
+}
+
+.i-css {
+	background-position: -270px 0;
+}
+
+.i-js {
+	background-position: -540px 0;
+}
